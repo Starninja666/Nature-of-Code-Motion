@@ -1,0 +1,60 @@
+.container {	
+	display:flex;
+	flex-direction:column;
+	padding: 65px 100px 0 100px;
+	font-family: 'Pacifico', cursive;
+	color: black;
+}
+
+.bio{
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	padding: 60px 0 60px 0;
+	font-size: 23px;	
+}
+.born,.likes{
+	width: 40%;
+	margin: 20px;
+	background: white;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+
+.titleish{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 45px;
+	width: 50%;
+}
+
+.potty{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;	
+	font-size: 23px;
+	background: white;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+.flip{
+	margin-left: auto;
+	font-size: 20px;
+}
+
+body{
+	background: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+button{
+	padding: 20px;
+	border-radius: 45px;
+}
+
+a{
+	text-decoration: none;
+	color: black
+}
